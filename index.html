@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notícias de Araguaína, TO - Em Tempo Real</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1>Notícias de Araguaína, TO</h1>
+            <p class="tagline">Atualizações em tempo real sobre sua cidade!</p>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div class="container">
+            <div class="search-filter-box">
+                <div class="search-input-group">
+                    <i class="fas fa-search search-icon"></i>
+                    <input type="text" id="searchInput" placeholder="Pesquisar por título...">
+                </div>
+                <select id="genreFilter" class="genre-select">
+                    <option value="all">Todos os Gêneros</option>
+                    <option value="Política">Política</option>
+                    <option value="Economia">Economia</option>
+                    <option value="Esportes">Esportes</option>
+                    <option value="Cultura">Cultura</option>
+                    <option value="Polícia">Polícia</option>
+                    <option value="Saúde">Saúde</option>
+                    <option value="Educação">Educação</option>
+                    <option value="Geral">Geral</option>
+                </select>
+                <button id="filterButton" class="filter-button">Filtrar</button>
+            </div>
+
+            <div id="newsListings" class="news-listings">
+                <p class="loading-message"><i class="fas fa-spinner fa-spin"></i> Carregando as últimas notícias...</p>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Notícias Araguaína. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
