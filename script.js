@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const allNews = [
         {
             id: 1,
-            title: 'Prefeitura de Araguaína anuncia pacote de obras para o segundo semestre',
+            title: 'Prefeitura de Araguaína anuncia pacote de obras para o segundo semestre, que legal',
             description: 'Novas infraestruturas e reformas estão previstas para diversas regiões da cidade, focando em mobilidade urbana e saneamento.',
             genre: 'Política',
             date: '2024-05-27T10:00:00Z', // Data e hora no formato ISO 8601
