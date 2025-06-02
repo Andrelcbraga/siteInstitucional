@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         {
             id: 2,
-            title: 'Equipe de Araguaína se prepara para campeonato estadual de futebol',
+            title: 'Equipe de Araguaína se prepara para campeonato estadual de futebol de 2025',
             description: 'Os treinos estão intensos visando a disputa do título tocantinense neste ano.',
             genre: 'Esportes',
             date: '2024-05-27T09:30:00Z',
